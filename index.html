@@ -9,8 +9,8 @@
   <body>
     <div class="container">
       <div class="calculator">
-        <input type="text" placeholder="0" />
-        <button onclick="clear()">cl</button>
+        <input type="text" placeholder="0" id="outputscreen" />
+        <button onclick="clearoutput()">cl</button>
         <button onclick="del()">del</button>
         <button onclick="display('%')">%</button>
         <button onclick="display('/')">/</button>
@@ -28,8 +28,9 @@
         <button onclick="display('+')">+</button>
         <button onclick="display('.')">.</button>
         <button onclick="display('0')">0</button>
-        <button onclick="display('=')" class="equal">=</button>
+        <button onclick="('=')" class="equal">=</button>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
